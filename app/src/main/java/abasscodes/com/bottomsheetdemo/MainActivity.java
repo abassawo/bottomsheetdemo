@@ -38,10 +38,10 @@ public class MainActivity extends AppCompatActivity {
                     case BottomSheetBehavior.STATE_HIDDEN:
                         break;
                     case BottomSheetBehavior.STATE_EXPANDED:
-                        rootview.main.btnBottomSheet.setText("Close Sheet");
+                        rootview.main.btnBottomSheet.setText(R.string.close_sheet);
                         break;
                     case BottomSheetBehavior.STATE_COLLAPSED:
-                        rootview.main.btnBottomSheet.setText("Expand Sheet");
+                        rootview.main.btnBottomSheet.setText(R.string.expand_sheet);
                         break;
                     case BottomSheetBehavior.STATE_DRAGGING:
                         break;
@@ -63,10 +63,10 @@ public class MainActivity extends AppCompatActivity {
     public void toggleBottomSheet() {
         if (sheetBehavior.getState() != BottomSheetBehavior.STATE_EXPANDED) {
             sheetBehavior.setState(BottomSheetBehavior.STATE_EXPANDED);
-            rootview.main.btnBottomSheet.setText("Close sheet");
+            rootview.main.btnBottomSheet.setText(R.string.close_sheet);
         } else {
             sheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
-            rootview.main.btnBottomSheet.setText("Expand sheet");
+            rootview.main.btnBottomSheet.setText(R.string.expand_sheet);
         }
     }
 

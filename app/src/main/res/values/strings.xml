@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BottomSheetDemo</string>
+    <string name="close_sheet">Close sheet</string>
+    <string name="expand_sheet">Expand sheet</string>
 </resources>
