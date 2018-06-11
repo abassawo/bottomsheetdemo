@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 
 import abasscodes.com.bottomsheetdemo.databinding.ActivityMainBinding;
 
-/* References source code for https://www.androidhive.info/2017/12/android-working-with-bottom-sheet/  */
+/* References source code from https://www.androidhive.info/2017/12/android-working-with-bottom-sheet/  */
 
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding rootview;
